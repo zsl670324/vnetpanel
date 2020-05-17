@@ -1,0 +1,13 @@
+-- 增加用户画像
+CREATE TABLE `user_persona` (
+	`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`user_id` INT(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '用户ID',
+	`ip` CHAR(128) NOT NULL DEFAULT '' COMMENT '连接IP',
+	`country` CHAR(64) NOT NULL DEFAULT '',
+	`province` CHAR(64) NOT NULL DEFAULT '',
+	`city` CHAR(128) NOT NULL DEFAULT '',
+	`county` CHAR(128) NOT NULL DEFAULT '',
+	`created_at` DATETIME(0) NOT NULL,
+	`updated_at` DATETIME(0) NOT NULL,
+	PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB COLLATE='utf8mb4_unicode_ci' COMMENT='用户画像';

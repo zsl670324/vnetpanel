@@ -1,0 +1,65 @@
+-- 文章整改
+ALTER TABLE `article`
+  MODIFY COLUMN `type` tinyint(4) NULL DEFAULT 1 COMMENT '类型：1-文章、2-站内公告、3-站外公告' AFTER `id`;
+
+-- 重置节点标签表数据
+TRUNCATE TABLE `label`;
+
+INSERT INTO `label` VALUES (1, 'Netflix', 0);
+INSERT INTO `label` VALUES (2, 'Hulu', 0);
+INSERT INTO `label` VALUES (3, 'HBO', 0);
+INSERT INTO `label` VALUES (4, 'Amazon Video', 0);
+INSERT INTO `label` VALUES (5, 'DisneyNow', 0);
+INSERT INTO `label` VALUES (6, 'BBC', 0);
+INSERT INTO `label` VALUES (7, 'Channel 4', 0);
+INSERT INTO `label` VALUES (8, 'Fox+', 0);
+INSERT INTO `label` VALUES (9, 'Happyon', 0);
+INSERT INTO `label` VALUES (10, 'AbemeTV', 0);
+INSERT INTO `label` VALUES (11, 'DMM', 0);
+INSERT INTO `label` VALUES (12, 'Niconico', 0);
+INSERT INTO `label` VALUES (13, 'DAZN', 0);
+INSERT INTO `label` VALUES (14, 'pixiv', 0);
+INSERT INTO `label` VALUES (15, 'TVer', 0);
+INSERT INTO `label` VALUES (16, 'TVB', 0);
+INSERT INTO `label` VALUES (17, 'HBO Go', 0);
+INSERT INTO `label` VALUES (18, 'Bilibili 港澳台', 0);
+INSERT INTO `label` VALUES (19, 'Viu', 0);
+INSERT INTO `label` VALUES (20, '動畫瘋', 0);
+INSERT INTO `label` VALUES (21, '四季線上影視', 0);
+INSERT INTO `label` VALUES (22, 'LINE TV', 0);
+INSERT INTO `label` VALUES (23, 'Youtube Premium', 0);
+INSERT INTO `label` VALUES (24, '优酷', 0);
+INSERT INTO `label` VALUES (25, '爱奇艺', 0);
+INSERT INTO `label` VALUES (26, '腾讯视频', 0);
+INSERT INTO `label` VALUES (27, '搜狐视频', 0);
+INSERT INTO `label` VALUES (28, 'PP视频', 0);
+INSERT INTO `label` VALUES (29, '凤凰视频', 0);
+INSERT INTO `label` VALUES (30, '百度视频', 0);
+INSERT INTO `label` VALUES (31, '芒果TV', 0);
+INSERT INTO `label` VALUES (32, '土豆网', 0);
+INSERT INTO `label` VALUES (33, '哔哩哔哩', 0);
+INSERT INTO `label` VALUES (34, '网易云音乐', 0);
+INSERT INTO `label` VALUES (35, 'Bahamut', 0);
+INSERT INTO `label` VALUES (36, 'Deezer', 0);
+INSERT INTO `label` VALUES (37, 'DisneyPlus', 0);
+INSERT INTO `label` VALUES (38, 'HWTV', 0);
+INSERT INTO `label` VALUES (39, 'ITV', 0);
+INSERT INTO `label` VALUES (40, 'JOOX', 0);
+INSERT INTO `label` VALUES (41, 'KKBOX', 0);
+INSERT INTO `label` VALUES (42, 'KKTV', 0);
+INSERT INTO `label` VALUES (43, 'LiTV', 0);
+INSERT INTO `label` VALUES (44, 'My5', 0);
+INSERT INTO `label` VALUES (45, 'PBS', 0);
+INSERT INTO `label` VALUES (46, 'Pandora', 0);
+INSERT INTO `label` VALUES (47, 'SoundCloud', 0);
+INSERT INTO `label` VALUES (48, 'Spotify', 0);
+INSERT INTO `label` VALUES (49, 'TIDAL', 0);
+INSERT INTO `label` VALUES (50, 'TaiWanGood', 0);
+INSERT INTO `label` VALUES (51, 'TikTok', 0);
+INSERT INTO `label` VALUES (52, 'Pornhub', 0);
+INSERT INTO `label` VALUES (53, 'Twitch', 0);
+INSERT INTO `label` VALUES (54, 'ViuTV', 0);
+INSERT INTO `label` VALUES (55, 'encoreTVB', 0);
+INSERT INTO `label` VALUES (56, 'myTV_SUPER', 0);
+INSERT INTO `label` VALUES (57, 'niconico', 0);
+INSERT INTO `label` VALUES (58, 'QQ音乐', 0);
