@@ -1,0 +1,1 @@
+<?php $version = '2.0'; ?> @if (config('theme.is_index')) @include('auth.landing') @else @include('auth.login_old') @endif

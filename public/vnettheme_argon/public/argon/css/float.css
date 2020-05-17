@@ -1,0 +1,178 @@
+    .float-action-button-default {
+      z-index: 100;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      padding: 20px;
+      cursor: pointer;
+      background-color: #172b4d;
+      color: #172b4d;
+      border-radius: 50%;
+      background-image: url('/argon/img/theme/menu-30.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px;
+      border: 1px solid #172b4d;
+      box-shadow: 0px 3px 9px 2px #BFBFBF;
+    }
+    .float-action-button-default:hover {
+      background-color: #172b4d;
+      box-shadow: 0px 6px 9px 2px #BFBFBF;
+    }
+    
+    .float-action-button-primary {
+      z-index: 100;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      padding: 20px;
+      cursor: pointer;
+      background-color: #5e72e4;
+      color: #5e72e4;
+      border-radius: 50%;
+      background-image: url('/argon/img/theme/menu-30.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px;
+      border: 1px solid #5e72e4;
+      box-shadow: 0px 3px 9px 2px #BFBFBF;
+    }
+    .float-action-button-primary:hover {
+      background-color: #5e72e4;
+      box-shadow: 0px 6px 9px 2px #BFBFBF;
+    }
+    
+    .float-action-button-secondary {
+      z-index: 100;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      padding: 20px;
+      cursor: pointer;
+      background-color: #f4f5f7;
+      color: #f4f5f7;
+      border-radius: 50%;
+      background-image: url('/argon/img/theme/menu-30.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px;
+      border: 1px solid #f4f5f7;
+      box-shadow: 0px 3px 9px 2px #BFBFBF;
+    }
+    .float-action-button-secondary:hover {
+      background-color: #f4f5f7;
+      box-shadow: 0px 6px 9px 2px #BFBFBF;
+    }
+    
+    .float-action-button-info {
+      z-index: 100;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      padding: 20px;
+      cursor: pointer;
+      background-color: #11cdef;
+      color: #11cdef;
+      border-radius: 50%;
+      background-image: url('/argon/img/theme/menu-30.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px;
+      border: 1px solid #11cdef;
+      box-shadow: 0px 3px 9px 2px #BFBFBF;
+    }
+    .float-action-button-info:hover {
+      background-color: #11cdef;
+      box-shadow: 0px 6px 9px 2px #BFBFBF;
+    }
+    
+    .float-action-button-success {
+      z-index: 100;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      padding: 20px;
+      cursor: pointer;
+      background-color: #2dce89;
+      color: #2dce89;
+      border-radius: 50%;
+      background-image: url('/argon/img/theme/menu-30.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px;
+      border: 1px solid #2dce89;
+      box-shadow: 0px 3px 9px 2px #BFBFBF;
+    }
+    .float-action-button-success:hover {
+      background-color: #2dce89;
+      box-shadow: 0px 6px 9px 2px #BFBFBF;
+    }
+    
+    .float-action-button-danger {
+      z-index: 100;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      padding: 20px;
+      cursor: pointer;
+      background-color: #f5365c;
+      color: #f5365c;
+      border-radius: 50%;
+      background-image: url('/argon/img/theme/menu-30.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px;
+      border: 1px solid #f5365c;
+      box-shadow: 0px 3px 9px 2px #BFBFBF;
+    }
+    .float-action-button-danger:hover {
+      background-color: #f5365c;
+      box-shadow: 0px 6px 9px 2px #BFBFBF;
+    }
+    
+    .float-action-button-warning {
+      z-index: 100;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      padding: 20px;
+      cursor: pointer;
+      background-color: #fb6340;
+      color: #fb6340;
+      border-radius: 50%;
+      background-image: url('/argon/img/theme/menu-30.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px;
+      border: 1px solid #fb6340;
+      box-shadow: 0px 3px 9px 2px #BFBFBF;
+    }
+    .float-action-button-warning:hover {
+      background-color: #fb6340;
+      box-shadow: 0px 6px 9px 2px #BFBFBF;
+    }
+    
+    .float-action-button {
+      z-index: 100;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      padding: 20px;
+      cursor: pointer;
+      background-color: #5e72e4;
+      color: #5e72e4;
+      border-radius: 50%;
+      background-image: url('/argon/img/theme/menu-30.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30px;
+      border: 1px solid #5e72e4;
+      box-shadow: 0px 3px 9px 2px #BFBFBF;
+    }
+    .float-action-button:hover {
+      background-color: #5e72e4;
+      box-shadow: 0px 6px 9px 2px #BFBFBF;
+    }
+    
+
+  
